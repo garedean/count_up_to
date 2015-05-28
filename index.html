@@ -15,7 +15,10 @@
 
           <form>
             <div class="form-group">
-              <input id="word" class="form-control" type="text" placeholder="Enter a word" required autofocus>
+              <input id="max" class="form-control" type="text" placeholder="Enter a number to count up to" required autofocus>
+            </div>
+            <div class="form-group">
+              <input id="interval" class="form-control" type="text" placeholder="Enter an interval to count by" required autofocus>
             </div>
 
             <div class="button-wrapper">
@@ -24,7 +27,9 @@
           </form>
 
           <div id="result-wrapper">
-            <p></p>
+            <h4 class="tect-center">Your numbers are:</h4>
+              <hr>
+            <p id="result"></p>
           </div>
         </div>
         </div>
